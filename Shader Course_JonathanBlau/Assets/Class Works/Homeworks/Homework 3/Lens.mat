@@ -45,13 +45,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlurStrength: 2000
-    - _FarNoiseRange: 0.788
-    - _Focus_Radius: 0.664
+    - _BlurStrength: 1
+    - _FarNoiseRange: 0.612
+    - _Focus_Radius: 0.258
+    - _Fullscreen_AlphaBlendOperation: 0
+    - _Fullscreen_BlendMode: 1
+    - _Fullscreen_ColorBlendOperation: 0
+    - _Fullscreen_DepthWrite: 0
+    - _Fullscreen_DstAlphaBlend: 10
+    - _Fullscreen_DstColorBlend: 10
+    - _Fullscreen_SrcAlphaBlend: 1
+    - _Fullscreen_SrcColorBlend: 5
     - _LensRadius: 0.1
-    - _NearBlurRange: 0.476
+    - _NearBlurRange: 0
     - _NightVIsionStrength: 0.5
-    - _NightVisionToggle: 0
+    - _NightVisionToggle: 1
     - _Noise_Intensity: 0.5
     - _Noise_Speed: 0.5
     - _Sample_Count: 200
