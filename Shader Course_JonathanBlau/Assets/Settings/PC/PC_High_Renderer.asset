@@ -17,12 +17,12 @@ MonoBehaviour:
     passTag: FullscreenMask
     Event: 450
     filterSettings:
-      RenderQueueType: 0
+      RenderQueueType: 1
       LayerMask:
         serializedVersion: 2
         m_Bits: 1536
       PassNames: []
-    overrideMaterial: {fileID: 2100000, guid: 725a070d0d3a84543b62d9387002f061, type: 2}
+    overrideMaterial: {fileID: 0}
     overrideMaterialPassIndex: 0
     overrideShader: {fileID: 0}
     overrideShaderPassIndex: 0
@@ -237,10 +237,10 @@ MonoBehaviour:
   m_Name: ZoomShader
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 600
+  injectionPoint: 450
   fetchColorBuffer: 1
   requirements: 0
-  passMaterial: {fileID: 2100000, guid: 42487de2a699429448b49f94601578ec, type: 2}
+  passMaterial: {fileID: 2100000, guid: 37c036aff2785344ea428f7138a5c84a, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1
