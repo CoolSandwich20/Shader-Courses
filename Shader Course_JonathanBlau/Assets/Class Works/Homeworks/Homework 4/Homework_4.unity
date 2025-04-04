@@ -134,8 +134,6 @@ GameObject:
   - component: {fileID: 445919020}
   - component: {fileID: 445919019}
   - component: {fileID: 445919023}
-  - component: {fileID: 445919022}
-  - component: {fileID: 445919024}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -254,23 +252,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &445919022
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445919015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a3169606424bc14d86d7e337f1a8a20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Property: DissolveProgress
-  TargetMaterial: {fileID: 2100000, guid: 9a90d5560ee46e8419da9e5ab0ef74ac, type: 2}
-  TargetMaterialProperty: _DissolveThreshold
-  ResolveMaterial: {fileID: 2100000, guid: a02084fbe029cd941b481c4f90786514, type: 2}
-  ResolveMaterialProperty: _DissolveThreshold
 --- !u!114 &445919023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,25 +265,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 445919022}
-  - {fileID: 445919024}
+  m_Bindings: []
   m_VisualEffect: {fileID: 445919019}
---- !u!114 &445919024
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445919015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Property:
-    m_Name: TargetPosition
-  Target: {fileID: 0}
 --- !u!1 &1376907104
 GameObject:
   m_ObjectHideFlags: 0
